@@ -46,11 +46,11 @@ MATLAB Online will try to automatically port over your workshop files from GitHu
 1. Click on the checkbox to accept outside source code. 
 2. To access the files, click ``Save and Open``. 
 
-## Step IV. Verify Your Environment and Setup Your Exercises
+## Step IV. Setup Your Exercises
 
-To verify that your environment is correctly set up for the exercises: 
-1. In the MATLAB Online Command Window: >> setup 
-2. Confirm that the welcome message is display
+To set up for the exercises: 
+1. Click the Open in MATLAB Online button. This should open a MATLAB Online session and add contents of this repo to your MATLAB Online session
+2. Open TableOfContents.mlx and run the file
 
 ## Try Out the Exercises! 
 
