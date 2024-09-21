@@ -1,18 +1,27 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="4019641859" file="C:\work\github\beyond-the-label\app\src\Beyond the Label.prj" location="C:\work\github\beyond-the-label\app\src" name="Beyond the Label" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1005566767" file="C:\work\github\beyond-the-label\app\src\Beyond the Label.prj" location="C:\work\github\beyond-the-label\app\src" name="Beyond the Label" target="target.mlapps" target-name="Package App">
     <param.appname>Beyond the Label</param.appname>
     <param.authnamewatermark>MathWorks</param.authnamewatermark>
     <param.email />
     <param.company />
     <param.icon />
     <param.icons />
-    <param.summary />
-    <param.description />
-    <param.screenshot>C:\Users\tsapre\AppData\Local\Temp\tp12dde350_c6ef_4b98_8afe_4c92c59412c4.png</param.screenshot>
+    <param.summary>Beyond the Label: AI techniques to make healthier choices</param.summary>
+    <param.description>This App helps you read ingredients from an image and predict if the product is clean or contains toxic chemicals.</param.description>
+    <param.screenshot>C:\Users\tsapre\AppData\Local\Temp\tpf1ebe4fb_2b19_4ae9_9046_b2dd5c9b1b4b.png</param.screenshot>
     <param.version>1.0</param.version>
-    <param.products.name />
-    <param.products.id />
-    <param.products.version />
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Computer Vision System Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>-1</item>
+      <item>-1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>-1</item>
+      <item>-1</item>
+    </param.products.version>
     <param.platforms />
     <param.output>C:\work\github\beyond-the-label\app</param.output>
     <param.guid>330e6f70-f6b8-463f-b2f9-566058d3a155</param.guid>
@@ -21,12 +30,7 @@
       <param.company />
       <param.icon />
       <param.icons />
-      <param.summary />
-      <param.description />
       <param.version />
-      <param.products.name />
-      <param.products.id />
-      <param.products.version />
       <param.platforms />
     </unset>
     <fileset.main>
@@ -36,7 +40,9 @@
       <file>${PROJECT_ROOT}\prediction_data.mat</file>
       <file>${PROJECT_ROOT}\preprocessText.m</file>
     </fileset.depfun>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\assets</file>
+    </fileset.resources>
     <fileset.package />
     <build-deliverables>
       <file location="C:\work\github\beyond-the-label" name="app" optional="false">C:\work\github\beyond-the-label\app</file>
@@ -50,8 +56,8 @@
         <toolbox name="gpucoder" />
         <toolbox name="fixedpoint" />
         <toolbox name="matlabhdlcoder" />
-        <toolbox name="polyspacebugfinder" />
         <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
       </toolboxes>
       <toolbox>
         <matlabcoder>
@@ -79,14 +85,14 @@
         </matlabhdlcoder>
       </toolbox>
       <toolbox>
-        <polyspacebugfinder>
-          <enabled>true</enabled>
-        </polyspacebugfinder>
-      </toolbox>
-      <toolbox>
         <neuralnetwork>
           <enabled>true</enabled>
         </neuralnetwork>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
       </toolbox>
     </matlab>
     <platform>
