@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1005566767" file="C:\work\github\beyond-the-label\app\src\Beyond the Label.prj" location="C:\work\github\beyond-the-label\app\src" name="Beyond the Label" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2794243596" file="C:\work\github\beyond-the-label\app\src\Beyond the Label.prj" location="C:\work\github\beyond-the-label\app\src" name="Beyond the Label" target="target.mlapps" target-name="Package App">
     <param.appname>Beyond the Label</param.appname>
     <param.authnamewatermark>MathWorks</param.authnamewatermark>
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary>Beyond the Label: AI techniques to make healthier choices</param.summary>
     <param.description>This App helps you read ingredients from an image and predict if the product is clean or contains toxic chemicals.</param.description>
-    <param.screenshot>C:\Users\tsapre\AppData\Local\Temp\tpf1ebe4fb_2b19_4ae9_9046_b2dd5c9b1b4b.png</param.screenshot>
+    <param.screenshot>C:\Users\tsapre\AppData\Local\Temp\tp6d1f6102_07e3_4408_aca9_086c5b82965f.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
