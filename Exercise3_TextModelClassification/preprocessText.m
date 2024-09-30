@@ -17,6 +17,14 @@ documents = tokenizedDocument(textData);
 % lemmatization, first use addPartOfSpeechDetails.
 documents = addPartOfSpeechDetails(documents);
 documents = removeStopWords(documents);
+wordsToRemove = ["water", "aqua", "oil", "extract", "fruit", ...
+                 "leaf", "acid", "seed", "fragrance", "flower", ...
+                 "powder", "juice", "butter", "filter", "chemical","lake"];
+
+% Loop through each word in the list and remove it from preprocessedText
+for word = wordsToRemove
+    documents = removeWords(documents, word, IgnoreCase=true);
+end
 documents = normalizeWords(documents,'Style','lemma');
 
 % Erase punctuation.

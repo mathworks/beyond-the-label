@@ -19,7 +19,7 @@ if ~isequal(class(data.Ingredients), 'string')
     error('The Ingredients column should be of type string.');
 end
 
-if ~isequal(class(data.Category), 'string')
+if ~isequal(class(data.Category), 'string') && ~isequal(class(data.Category), 'categorical')
     error('The Category column should be of type string.');
 end
 
