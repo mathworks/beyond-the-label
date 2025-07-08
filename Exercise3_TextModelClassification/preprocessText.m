@@ -8,7 +8,7 @@ function documents = preprocessText(textData)
 % 5. Remove words with 2 or fewer characters using removeShortWords.
 % 6. Remove words with 50 or more characters using removeLongWords.
 %
-% Copyright 2024 The MathWorks, Inc.
+% Copyright 2024-2025 The MathWorks, Inc.
 
 % Tokenize the text.
 documents = tokenizedDocument(textData);
@@ -18,8 +18,8 @@ documents = tokenizedDocument(textData);
 documents = addPartOfSpeechDetails(documents);
 documents = removeStopWords(documents);
 wordsToRemove = ["water", "aqua", "oil", "extract", "fruit", ...
-                 "leaf", "acid", "seed", "fragrance", "flower", ...
-                 "powder", "juice", "butter", "filter", "chemical","lake"];
+                 "leaf", "seed", "fragrance", "flower", ...
+                 "powder", "juice", "butter", "filter","lake"];
 
 % Loop through each word in the list and remove it from preprocessedText
 for word = wordsToRemove
